@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account</title>
+    <link rel="stylesheet" href="Account.css">
+</head>
+
+<body>
+
+    <nav id="mainnav">
+        <h1 id="textlogo">
+            <img src="images/growth.png" alt="" id="logo">
+            Fin<span> Growth</span>
+        </h1>
+        <ul>
+
+            <li class="active"><a href="BankHome.html">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Achievements</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li style="float: right; ;"><a href="BankHome.html" id="signin">Log Out</a></li>
+
+
+        </ul>
+    </nav>
+    <div class="whole-contain">
+        <div id="balshow">
+
+        <label for="bal">My Balance:</label><input type="text" id="bal" value="50000.00" disabled>
+    </div>
+    <div class="transact">
+        Select Mode: <input type="text" list="mode" id="inmode">
+        <datalist id="mode">
+
+            <option value="Withdraw"></option>
+            <option value="Deposit"></option>
+        </datalist>
+        Amount:<input type="text" id="amt">
+        Description: <input type="text" id="desc">
+        <input type="button" id="butt" value="Submit" onclick="transact()">
+        <input type="button" id="rest" value="Reset" onclick="fReset()"><br>
+
+        <p id="emsg"></p>
+    </div>
+    <div class="tallying">
+        <div class="with">
+            Withdraw details: <br><br>
+            <table id="wtable">
+                <tr>
+                    <th>Mode</th>
+                    <th>Amount</th>
+                    <th>Description</th>
+                </tr>
+            </table><br>
+            <p id="wtotal">Total Withdrawal is:
+                <input type="text" id="wtotalo" value="0" disabled></p>
+        </div>
+        <div class="depo">
+            Deposit details: <br><br>
+            <table id="dtable">
+                <tr>
+                    <th>Mode</th>
+                    <th>Amount</th>
+                    <th>Description</th>
+                </tr>
+            </table><br>
+            <p id="dtotal">Total Deposite is:
+                <input type="text" id="dtotalo" disabled value="0"></p>
+        </div>
+    </div>
+    </div>
+    <script src="Account.js"></script>
+</body>
+
+</html>

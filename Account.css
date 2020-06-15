@@ -1,0 +1,243 @@
+
+html{
+    background-image: url(images/170127-digital-banking-crop2.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+body {
+    font-family :'DroidSansRegular', Verdana, Geneva, sans-serif; font-size:62.5%;
+    color:#ff1e00;
+    width: 99%;
+    justify-content: center;
+    align-items: center;
+
+}
+a, a:link, a:visited, a:active {
+    color:#1c5f75;
+    
+}
+
+#mainnav {
+    background: #f0f0f0 url(images/htmlbg.jpg) repeat;
+    height:80px;
+    font-size: 10px;
+}
+#logo
+{
+    height: 40px;
+    width: 50px;
+    margin-top: -55px;
+    
+}
+#mainnav h1 {
+    float:left; 
+    padding:20px 25px; 
+    font: bold 3.2em 'TeXGyreAdventor',
+    Arial, sans-serif; color:#d35537; 
+    
+    
+    text-transform:uppercase;
+}
+#mainnav h1 span {
+    font-weight:normal!important;
+     color:#504239!important;
+    }
+    #mainnav ul {
+        float:right;
+        width:630px; 
+        font:bold 1.6em 'TeXGyreAdventor', Arial, sans-serif; 
+     padding-top:15px;
+    }
+    #mainnav ul li {
+    display:inline; 
+}
+#mainnav ul li a {
+    text-decoration:none;
+    display:block;
+    float:left;
+    margin:0 15px;
+    padding-bottom:5px;
+}
+#mainnav ul li a:hover {
+    color:#d35537;
+    text-decoration:none!important;
+}
+#mainnav ul li.active a {
+    color:#d35537;
+    border-bottom:solid 3px #191512;
+    text-decoration:none;
+} 
+label
+{
+    margin-left: 20%;
+    
+    position: relative;
+}
+#balshow
+{
+    font-size: 30px;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 250px;
+    color: rgb(9, 18, 48);
+    display: inline;
+}
+#bal{
+  border: none;       
+   height: auto;
+   font-weight: bolder;
+            width: 300px;
+            font-size: 50px;
+            background: transparent;
+            color: rgb(28, 90, 3);
+            position: relative;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            padding: 10x 5px;
+        }
+.transact{
+    display: flex;
+    font-size: 25px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+
+}
+input[type = text]{
+    border-radius: 10px;
+    height: 35px;
+    width: 160px;
+    margin: 15px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+#butt{
+    background-color: rgba(0, 0123, 0, 0.5);
+    color: seashell;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    border-radius: 15px;
+    font-size: 20px;
+}
+#butt:hover{
+    background-color: rgba(255, 0255, 0255, 0.5);
+    color: orange;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    border-radius: 15px;
+    transition: 0.8s;
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.5);
+}
+#rest{
+    background-color: rgba(255, 0, 0, 0.979);
+    color: seashell;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    border-radius: 15px;
+    font-size: 20px;
+}
+#rest:hover{
+    background-color: rgba(255, 0255, 0255, 0.5);
+    color: orange;
+   padding: 5px 10px;
+   font-family: sans-serif;
+   border-radius: 15px;
+   transition: 0.8s;
+   box-shadow: 2px 5px rgba(0, 0, 0, 0.5);
+}
+#emsg{
+    color: red;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    margin: -10px auto;
+}
+.tallying{
+    margin: 10px auto;
+    display: flex;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 30px;
+
+font-size: 25px;
+background-color: rgba(255, 0255, 0255, 0.5);
+}
+.with
+{
+
+    margin-top: 25px;
+    float: left;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: black;
+   padding: 5px auto;
+ 
+    
+   
+}
+.depo{
+    margin-top: 25px;
+    margin-left: 100px;
+    float: left;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    padding: 5px auto;
+    
+}
+#wtable{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px 10px;
+    
+}
+#dtable{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+th{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px 10px;
+    border: 1px solid;
+    color: white;
+    background-image: linear-gradient(rgb(255, 0, 140),blue);
+    padding: 5px 10px;
+    
+}
+td{
+    font-family: serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid;
+}
+
+#wtotalo{
+    background-color: transparent;
+    padding: 5px 5px;
+    font-weight: bold;
+    font-size: 25px;
+   border: none;
+   text-align: center;
+   color: black;
+}
+#dtotalo{
+    background-color: transparent;
+    padding: 5px 5px;
+    font-weight: bold;
+    font-size: 25px;
+   border: none;
+   text-align: center;
+   color: black;
+}
+

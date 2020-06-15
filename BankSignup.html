@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="BankSignUp.css">
+</head>
+
+<body>
+    
+
+    <div id="contain">
+        <form onsubmit="return validate()" action="BankHome.html" id="signupform">
+            <h2>Bank SignUp Form</h2>
+            <div id="group1">
+                Full Name:
+                <input type="text" id="fName" onkeyup="this.value=this.value.toUpperCase()" placeholder="JOHN DOE">
+                <span style="color: red;font-size: small;" id="msgfname"></span><br>
+                Date-of-Birth:
+                <input type="text" id="dob" placeholder="DD-MM-YYYY">
+                <span style="color: red;font-size: small;" id="msgdob"></span><br>
+                Gender:Male<input type="radio" name="gender" class="gen">
+                Female<input type="radio" name="gender" class="gen">
+                Others<input type="radio" name="gender" class="gen"> <br>
+                <span style="color: red;font-size: small;" id="msggender"></span><br><br>
+                Mobile No.
+                <input type="text" id="mnum" placeholder="Ex:9876543210">
+                <span style="color: red;font-size: small;" id="msgmobile"></span><br>
+                Aadhar No.
+                <input type="text" id="aadhar" placeholder="Ex:123456789123">
+                <span style="color: red;font-size: small;" id="msgaadhar"></span>
+            </div>
+            <div id="group2">
+                <h3>Create Username and Password</h3>
+                EmailID:
+                <input type="text" id="email" placeholder="example@abc.com">
+                <span style="color: red;font-size: small;" id="msgemail"></span><br>
+                Password:
+                <input type="password" id="psw" placeholder="********">
+                <input type="checkbox" onclick="showpsw()" id="show">
+                Show Password <br>
+                <span style="color: red;font-size: small;" id="msgpass"></span><br>
+                Re-Enter Password:
+                <input type="password" id="cnpsw" placeholder="********">
+                <input type="checkbox" onclick="showcpsw()" id="cshow">
+                Show Password <br>
+                <span style="color: red;font-size: small;" id="msgcpass"></span><br>
+            </div>
+            <div id="check">
+                <h5>*Please press 'ref' button to get new captcha</h5>
+                <input type="text" value="H2T45" id="capt" disabled>
+                <input type="button" value="ref" id="ref" onclick="refe()"><br>
+                <span style="color: red;font-size: small;" id="msgcapt"></span><br>
+                <input type="text" id="recapt"><br>
+                <span style="color: red;font-size: small;" id="msgrecapt"></span><br>
+                <input type="checkbox" name="terms" id="tnc" onselect="tnc()">
+                <label for="terms" id="lterms">
+                    <span>
+                        <span></span>
+                    </span>
+                    "I agree to the "
+                    <a href="#" id="tserve"> Terms and Conditions</a>
+                </label><br>
+                <span style="color: red;font-size: small;" id="msgtnc"></span><br>
+            </div>
+            <div id="submit">
+                <input type="submit" id="sub" value="SignUp"><br>
+                Already have an account? <a href="">SignIn</a>
+            </div>
+        </form>
+    </div>
+
+
+
+    <script src="BankSignUp.js"></script>
+</body>
+
+</html>

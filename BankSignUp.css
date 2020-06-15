@@ -1,0 +1,156 @@
+
+body
+{
+    background-image: url(images/170127-digital-banking-crop.jpg);
+    background-size: cover;
+    font-size: 13px;
+    line-height: 1.8;
+    color: #fff;
+    background-position:center center;
+    font-weight: 400;
+    font-family: roboto slab;
+}
+#main
+{
+    padding: 60px 0;
+    
+}
+#contain
+{
+    width: 586px;
+    background: #fff;
+    margin-left: 165px;
+    border-radius: 10px;
+    position: relative;
+}
+#signupform{
+    padding: 50px 60px 70px;
+}
+h2 {
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    color: rgb(37, 47, 146);
+    font-family: roboto slab;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+}
+h3 {
+ 
+    font-weight: bold;
+    color: rgba(115, 35, 190, 0.603);
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif ;
+    font-size: 20px;
+    margin-top: 30px;
+    text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+}
+h5{
+    text-align: center;
+    margin: 5px 0;
+
+}
+span{
+    margin: -5px 0;
+}
+#signupform
+{
+    color: darkslategray;
+    font-size: large;
+}
+#fName,#dob,#mnum,
+#aadhar
+{
+    width: 100%;
+    display: block;
+    border: none;
+    border-bottom: 2px solid #ebebeb;
+    padding: 5px 0;
+    color: #222;
+    margin-top: 11px;
+    font-family: roboto slab;
+    font-size: medium;
+}
+#gen{
+    display: inline;
+    margin: 0 10px 0px 10px;
+}
+#email,#psw,#cnpsw
+{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    display: block;
+    border: none;
+    border-bottom: 2px solid #ebebeb;
+    padding: 5px 0;
+    color: #222;
+    margin-top: 11px;
+    font-family: roboto slab;
+}
+#show,#cshow
+{
+    margin-top: -15px;
+}
+#tnc {
+    width: 2em;
+    font-size: 1em;
+    margin-left: 10%;
+}
+#lterm{color: #999;
+    cursor: default;
+}
+#capt
+{
+height: 40px;
+width: 45%;
+margin-left: 28%;
+border: none;
+background-color: darkslategray;
+color: wheat;
+font-size: x-large;
+font-weight: bolder;
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#recapt
+{
+    margin-left: 33%;
+}
+#ref
+{
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(37, 145, 121);
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#tserve
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#sub
+{
+    margin:10px 0 0 120px;
+    width: 40%;
+    background: #4966b1;
+    color: #fff;
+    padding: 16px 17px;
+    font-size: 23px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1px 15px 0 rgba(73,102,177,.7);
+}
+#msgfname,#msgdob{
+    margin-top: -25px;
+}
