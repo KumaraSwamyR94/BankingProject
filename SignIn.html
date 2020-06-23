@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="SignIn.css">
+</head>
+<body>
+    <nav id="mainnav">
+
+        <h1 id="textlogo">
+            <img src="images/growth.png" alt="" id="logo">
+            Fin<span> Growth</span>
+        </h1>
+        <ul>
+
+            <li class="active"><a href="BankHome.html">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Achievements</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li style="float: right; margin-left: -890px;"><a href="SignIn.html" id="signin">Sign In</a></li>
+
+
+        </ul>
+    </nav>
+        <div class="popup-content">
+            <img src="images/SignInlogo.png" alt="User" height="200px" width="200px">
+            <form onsubmit="return bankAccess()" action="Account.html">
+                <input type="text" placeholder="UserName" id="uid"> <br><br>
+                <input type="password" placeholder="Password" id="upass"><br>
+                <span id="emsg"></span><br><br>
+        
+                <input type="submit" value="Log In" id="sub">
+            </form>
+        </div>
+    <script src="SignIn.js"></script>
+</body>
+</html>

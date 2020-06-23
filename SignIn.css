@@ -1,0 +1,110 @@
+body
+{
+  background-image: url(images/170127-digital-banking.jpg);
+  background-size: cover;
+}
+a, a:link, a:visited, a:active {
+  color:#1c5f75;
+  
+}
+
+#mainnav {
+  background: #f0f0f0 url(images/htmlbg.jpg) repeat;
+  height:80px;
+  font-size: 10px;
+}
+#logo
+{
+  height: 40px;
+  width: 50px;
+  margin-top: -55px;
+  
+}
+#mainnav h1 {
+  float:left; 
+  padding:20px 25px; 
+  font: bold 3.2em 'TeXGyreAdventor',
+  Arial, sans-serif; color:#d35537; 
+  
+  
+  text-transform:uppercase;
+}
+#mainnav h1 span {
+  font-weight:normal!important;
+   color:#504239!important;
+  }
+  #mainnav ul {
+      float:right;
+      width:630px; 
+      font:bold 1.6em 'TeXGyreAdventor', Arial, sans-serif; 
+   padding-top:15px;
+  }
+  #mainnav ul li {
+  display:inline; 
+}
+#mainnav ul li a {
+  text-decoration:none;
+  display:block;
+  float:left;
+  margin:0 15px;
+  padding-bottom:5px;
+}
+#mainnav ul li a:hover {
+  color:#d35537;
+  text-decoration:none!important;
+}
+#mainnav ul li.active a {
+  color:#d35537;
+  border-bottom:solid 3px #191512;
+  text-decoration:none;
+} 
+label
+{
+  margin-left: 20%;
+  
+  position: relative;
+}
+
+  .popup-content{
+    margin-top: 50px;
+    height: auto;
+    width: 650px;
+    background: rgba(255, 255, 255, 0.808);
+    padding: 30px;
+    margin-left: 25%;
+    border-radius: 050px;
+    position: absolute;
+    text-align: center;
+    
+  }
+  input{
+    background: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 2px solid gray;
+    font-size: 30px;
+    margin-top: 010px;
+  }
+  #sub{
+    border-radius: 10px;
+    background-color: rgb(40, 121, 214);
+    padding: 10px 5px;
+    color: #f0f0f0;
+    margin-top: 15px;
+  }
+  #sub:hover{
+    
+    border: outset;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: rgb(5, 141, 0);
+    cursor: pointer;
+    box-shadow: 3px 3px gray;
+    transition: 0.8s;
+  }
+  
+  #emsg{
+      color: red;
+      font-weight: bolder;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+      'Trebuchet MS', sans-serif;
+  }
